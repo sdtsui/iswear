@@ -5,6 +5,9 @@
   "author": "Clark Feusier <cfeusier@gmail.com>",
   "license": "MIT",
   "main": "dist/iswear.min.js",
+  "scripts": {
+    "test": "mocha test/iswear.js"
+  },
   "dependencies": {},
   "devDependencies": {
     "chai": "^1.9.1",
@@ -13,7 +16,8 @@
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-shell": "^1.1.2",
     "mocha": "^1.18.2",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "promises-aplus-tests" : "*"
   },
   "keywords": [
     "promise",

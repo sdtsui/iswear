@@ -1,17 +1,1 @@
-### node etc ###
-
-# Logs
-logs
-*.log
-
-# Runtime data
-pids
-*.pid
-*.seed
-
-# Coverage libraries
-lib-cov
-coverage
-
-# Dependency directories
-node_modules/
+.idea
